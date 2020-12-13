@@ -1,0 +1,745 @@
+In file included from E:\LP3 Mini Project ICS\afxwin.h:19,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:459:27: error: declaration of 'operator=' as non-function
+  const CString& operator=(__in_z_opt LPCSTR lpsz);
+                           ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:459:25: error: expected ';' at end of member declaration
+  const CString& operator=(__in_z_opt LPCSTR lpsz);
+                         ^
+                          ;
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:459:37: error: expected ')' before 'LPCSTR'
+  const CString& operator=(__in_z_opt LPCSTR lpsz);
+                          ~          ^~~~~~~
+                                     )
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:461:27: error: declaration of 'operator=' as non-function
+  const CString& operator=(__in_z_opt LPCWSTR lpsz);
+                           ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:461:25: error: expected ';' at end of member declaration
+  const CString& operator=(__in_z_opt LPCWSTR lpsz);
+                         ^
+                          ;
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:461:37: error: expected ')' before 'LPCWSTR'
+  const CString& operator=(__in_z_opt LPCWSTR lpsz);
+                          ~          ^~~~~~~~
+                                     )
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:621:25: error: '__in_z' has not been declared
+  int Insert(int nIndex, __in_z LPCTSTR pstr);
+                         ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:621:40: error: expected ',' or '...' before 'pstr'
+  int Insert(int nIndex, __in_z LPCTSTR pstr);
+                                        ^~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:754:31: error: '__in_ecount_opt' has not been declared
+  void AssignCopy(int nSrcLen, __in_ecount_opt(nSrcLen) LPCTSTR lpszSrcData);
+                               ^~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:754:47: error: redefinition of 'int nSrcLen'
+  void AssignCopy(int nSrcLen, __in_ecount_opt(nSrcLen) LPCTSTR lpszSrcData);
+                               ~~~~~~~~~~~~~~~~^~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:754:22: note: 'int nSrcLen' previously declared here
+  void AssignCopy(int nSrcLen, __in_ecount_opt(nSrcLen) LPCTSTR lpszSrcData);
+                  ~~~~^~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:754:56: error: expected ',' or '...' before 'LPCTSTR'
+  void AssignCopy(int nSrcLen, __in_ecount_opt(nSrcLen) LPCTSTR lpszSrcData);
+                                                        ^~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:755:32: error: '__in_ecount_opt' has not been declared
+  void ConcatCopy(int nSrc1Len, __in_ecount_opt(nSrc1Len) LPCTSTR lpszSrc1Data, int nSrc2Len, __in_ecount_opt(nSrc2Len) LPCTSTR lpszSrc2Data);
+                                ^~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:755:48: error: redefinition of 'int nSrc1Len'
+  void ConcatCopy(int nSrc1Len, __in_ecount_opt(nSrc1Len) LPCTSTR lpszSrc1Data, int nSrc2Len, __in_ecount_opt(nSrc2Len) LPCTSTR lpszSrc2Data);
+                                ~~~~~~~~~~~~~~~~^~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:755:22: note: 'int nSrc1Len' previously declared here
+  void ConcatCopy(int nSrc1Len, __in_ecount_opt(nSrc1Len) LPCTSTR lpszSrc1Data, int nSrc2Len, __in_ecount_opt(nSrc2Len) LPCTSTR lpszSrc2Data);
+                  ~~~~^~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:755:58: error: expected ',' or '...' before 'LPCTSTR'
+  void ConcatCopy(int nSrc1Len, __in_ecount_opt(nSrc1Len) LPCTSTR lpszSrc1Data, int nSrc2Len, __in_ecount_opt(nSrc2Len) LPCTSTR lpszSrc2Data);
+                                                          ^~~~~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:19,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:756:34: error: '__in_ecount_z' has not been declared
+  void ConcatInPlace(int nSrcLen, __in_ecount_z(nSrcLen) LPCTSTR lpszSrcData);
+                                  ^~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:756:48: error: redefinition of 'int nSrcLen'
+  void ConcatInPlace(int nSrcLen, __in_ecount_z(nSrcLen) LPCTSTR lpszSrcData);
+                                  ~~~~~~~~~~~~~~^~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:756:25: note: 'int nSrcLen' previously declared here
+  void ConcatInPlace(int nSrcLen, __in_ecount_z(nSrcLen) LPCTSTR lpszSrcData);
+                     ~~~~^~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:756:57: error: expected ',' or '...' before 'LPCTSTR'
+  void ConcatInPlace(int nSrcLen, __in_ecount_z(nSrcLen) LPCTSTR lpszSrcData);
+                                                         ^~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:831:45: error: 'count' was not declared in this scope
+ int AFX_CDECL _wcstombsz(__out_bcount_z_opt(count) char* mbstr, __in_z const wchar_t* wcstr, UINT count);
+                                             ^~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:831:45: note: suggested alternative: 'connect'
+ int AFX_CDECL _wcstombsz(__out_bcount_z_opt(count) char* mbstr, __in_z const wchar_t* wcstr, UINT count);
+                                             ^~~~~
+                                             connect
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:831:26: error: '__out_bcount_z_opt' was not declared in this scope
+ int AFX_CDECL _wcstombsz(__out_bcount_z_opt(count) char* mbstr, __in_z const wchar_t* wcstr, UINT count);
+                          ^~~~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:831:26: note: suggested alternative: 'SAL__out_bcount_z_opt'
+ int AFX_CDECL _wcstombsz(__out_bcount_z_opt(count) char* mbstr, __in_z const wchar_t* wcstr, UINT count);
+                          ^~~~~~~~~~~~~~~~~~
+                          SAL__out_bcount_z_opt
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:831:65: error: '__in_z' was not declared in this scope
+ int AFX_CDECL _wcstombsz(__out_bcount_z_opt(count) char* mbstr, __in_z const wchar_t* wcstr, UINT count);
+                                                                 ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:831:65: note: suggested alternative: 'u_int'
+ int AFX_CDECL _wcstombsz(__out_bcount_z_opt(count) char* mbstr, __in_z const wchar_t* wcstr, UINT count);
+                                                                 ^~~~~~
+                                                                 u_int
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:831:99: error: expected primary-expression before 'count'
+ int AFX_CDECL _wcstombsz(__out_bcount_z_opt(count) char* mbstr, __in_z const wchar_t* wcstr, UINT count);
+                                                                                                   ^~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:831:104: error: expression list treated as compound expression in initializer [-fpermissive]
+ int AFX_CDECL _wcstombsz(__out_bcount_z_opt(count) char* mbstr, __in_z const wchar_t* wcstr, UINT count);
+                                                                                                        ^
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:832:45: error: 'count' was not declared in this scope
+ int AFX_CDECL _mbstowcsz(__out_ecount_z_opt(count) wchar_t* wcstr, __in_z const char* mbstr, UINT count);
+                                             ^~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:832:45: note: suggested alternative: 'connect'
+ int AFX_CDECL _mbstowcsz(__out_ecount_z_opt(count) wchar_t* wcstr, __in_z const char* mbstr, UINT count);
+                                             ^~~~~
+                                             connect
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:832:26: error: '__out_ecount_z_opt' was not declared in this scope
+ int AFX_CDECL _mbstowcsz(__out_ecount_z_opt(count) wchar_t* wcstr, __in_z const char* mbstr, UINT count);
+                          ^~~~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:832:26: note: suggested alternative: 'SAL__out_ecount_z_opt'
+ int AFX_CDECL _mbstowcsz(__out_ecount_z_opt(count) wchar_t* wcstr, __in_z const char* mbstr, UINT count);
+                          ^~~~~~~~~~~~~~~~~~
+                          SAL__out_ecount_z_opt
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:832:68: error: '__in_z' was not declared in this scope
+ int AFX_CDECL _mbstowcsz(__out_ecount_z_opt(count) wchar_t* wcstr, __in_z const char* mbstr, UINT count);
+                                                                    ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:832:68: note: suggested alternative: 'u_int'
+ int AFX_CDECL _mbstowcsz(__out_ecount_z_opt(count) wchar_t* wcstr, __in_z const char* mbstr, UINT count);
+                                                                    ^~~~~~
+                                                                    u_int
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:832:99: error: expected primary-expression before 'count'
+ int AFX_CDECL _mbstowcsz(__out_ecount_z_opt(count) wchar_t* wcstr, __in_z const char* mbstr, UINT count);
+                                                                                                   ^~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:832:104: error: expression list treated as compound expression in initializer [-fpermissive]
+ int AFX_CDECL _mbstowcsz(__out_ecount_z_opt(count) wchar_t* wcstr, __in_z const char* mbstr, UINT count);
+                                                                                                        ^
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:865:48: error: expected type-specifier before '...' token
+  void* PASCAL operator new(size_t nSize) throw(...);
+                                                ^~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:866:51: error: expected type-specifier before '...' token
+  void* PASCAL operator new(size_t, void* p) throw(...);
+                                                   ^~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:1094:31: error: '__out_ecount_opt' has not been declared
+  virtual BOOL GetErrorMessage(__out_ecount_opt(nMaxError) LPTSTR lpszError, UINT nMaxError,
+                               ^~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:1094:59: error: expected ',' or '...' before 'LPTSTR'
+  virtual BOOL GetErrorMessage(__out_ecount_opt(nMaxError) LPTSTR lpszError, UINT nMaxError,
+                                                           ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:1381:31: error: '__out_ecount_z' has not been declared
+  virtual BOOL GetErrorMessage(__out_ecount_z(nMaxError) LPTSTR lpszError, UINT nMaxError,
+                               ^~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:1381:57: error: expected ',' or '...' before 'LPTSTR'
+  virtual BOOL GetErrorMessage(__out_ecount_z(nMaxError) LPTSTR lpszError, UINT nMaxError,
+                                                         ^~~~~~
+In file included from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/winbase.h:19,
+                 from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/windows.h:70,
+                 from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/winsock2.h:23,
+                 from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxv_w32.h:126,
+                 from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxver_.h:147,
+                 from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:27,
+                 from E:\LP3 Mini Project ICS\afxwin.h:19,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:1497:46: error: reinterpret_cast from integer to pointer
+  static const UINT_PTR hFileNull = (UINT_PTR)INVALID_HANDLE_VALUE;
+                                              ^~~~~~~~~~~~~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:19,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:1589:27: error: '__in_z' has not been declared
+  virtual void WriteString(__in_z LPCTSTR lpsz);
+                           ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:1589:42: error: expected ',' or '...' before 'lpsz'
+  virtual void WriteString(__in_z LPCTSTR lpsz);
+                                          ^~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:1590:28: error: '__out_ecount_z' has not been declared
+  virtual LPTSTR ReadString(__out_ecount_z(nMax) LPTSTR lpsz, UINT nMax);
+                            ^~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:1590:49: error: expected ',' or '...' before 'LPTSTR'
+  virtual LPTSTR ReadString(__out_ecount_z(nMax) LPTSTR lpsz, UINT nMax);
+                                                 ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2049:20: error: '__out_xcount_opt' has not been declared
+  LPTSTR ReadString(__out_xcount_opt(((int)(nMax)) * (((nMax >> 31) * -1) | 0x01)) LPTSTR lpsz, UINT nMax);
+                    ^~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2049:43: error: expected ')' before '(' token
+  LPTSTR ReadString(__out_xcount_opt(((int)(nMax)) * (((nMax >> 31) * -1) | 0x01)) LPTSTR lpsz, UINT nMax);
+                                     ~     ^
+                                           )
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2049:43: error: expected ')' before '(' token
+  LPTSTR ReadString(__out_xcount_opt(((int)(nMax)) * (((nMax >> 31) * -1) | 0x01)) LPTSTR lpsz, UINT nMax);
+                                    ~      ^
+                                           )
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2049:43: error: expected ')' before '(' token
+  LPTSTR ReadString(__out_xcount_opt(((int)(nMax)) * (((nMax >> 31) * -1) | 0x01)) LPTSTR lpsz, UINT nMax);
+                   ~                       ^
+                                           )
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2049:44: error: 'nMax' has not been declared
+  LPTSTR ReadString(__out_xcount_opt(((int)(nMax)) * (((nMax >> 31) * -1) | 0x01)) LPTSTR lpsz, UINT nMax);
+                                            ^~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2049:2: error: 'ReadString' declared as function returning a function
+  LPTSTR ReadString(__out_xcount_opt(((int)(nMax)) * (((nMax >> 31) * -1) | 0x01)) LPTSTR lpsz, UINT nMax);
+  ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2049:48: error: expected ';' at end of member declaration
+  LPTSTR ReadString(__out_xcount_opt(((int)(nMax)) * (((nMax >> 31) * -1) | 0x01)) LPTSTR lpsz, UINT nMax);
+                                                ^
+                                                 ;
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2049:49: error: expected unqualified-id before ')' token
+  LPTSTR ReadString(__out_xcount_opt(((int)(nMax)) * (((nMax >> 31) * -1) | 0x01)) LPTSTR lpsz, UINT nMax);
+                                                 ^
+In file included from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxstat_.h:19,
+                 from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcoll.h:1507,
+                 from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2227,
+                 from E:\LP3 Mini Project ICS\afxwin.h:19,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtls_.h:131:48: error: expected type-specifier before '...' token
+  void* PASCAL operator new(size_t nSize) throw(...);
+                                                ^~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtls_.h:171:35: error: expected type-specifier before '...' token
+  AFX_INLINE TYPE* GetData() throw(...)
+                                   ^~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtls_.h:203:35: error: expected type-specifier before '...' token
+  AFX_INLINE TYPE* GetData() throw(...)
+                                   ^~~
+In file included from C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.h:2245,
+                 from E:\LP3 Mini Project ICS\afxwin.h:19,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afx.inl:32:68: error: expected type-specifier before '...' token
+ _AFX_INLINE void* PASCAL CObject::operator new(size_t nSize) throw(...)
+                                                                    ^~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:1167:26: error: extra qualification 'CMenu::' on member 'FromHandlePermanent' [-fpermissive]
+     static CMenu* PASCAL CMenu::FromHandlePermanent(HMENU hMenu);
+                          ^~~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:1260,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdd_.h:28:52: error: '__inout_ecount_z' has not been declared
+ void AFXAPI DDX_Text(CDataExchange* pDX, int nIDC, __inout_ecount_z(nMaxLen) LPTSTR value, int nMaxLen);
+                                                    ^~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdd_.h:28:78: error: expected ',' or '...' before 'LPTSTR'
+ void AFXAPI DDX_Text(CDataExchange* pDX, int nIDC, __inout_ecount_z(nMaxLen) LPTSTR value, int nMaxLen);
+                                                                              ^~~~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:2043:24: error: '__in_z_opt' has not been declared
+     void SetWindowText(__in_z_opt LPCTSTR lpszString);
+                        ^~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:2043:43: error: expected ',' or '...' before 'lpszString'
+     void SetWindowText(__in_z_opt LPCTSTR lpszString);
+                                           ^~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:2363:34: error: '__in_z' has not been declared
+     afx_msg void OnDevModeChange(__in_z LPTSTR lpDeviceName);
+                                  ^~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:2363:48: error: expected ',' or '...' before 'lpDeviceName'
+     afx_msg void OnDevModeChange(__in_z LPTSTR lpDeviceName);
+                                                ^~~~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3035:17: error: '__in' has not been declared
+     int GetLine(__in int nIndex,
+                 ^~~~
+E:\LP3 Mini Project ICS\afxwin.h:3035:26: error: two or more data types in declaration of 'nIndex'
+     int GetLine(__in int nIndex,
+                          ^~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3035:32: error: expected ')' before ',' token
+     int GetLine(__in int nIndex,
+                ~               ^
+                                )
+E:\LP3 Mini Project ICS\afxwin.h:3037:17: error: expected ';' at end of member declaration
+                 __pre __byte_readableTo(sizeof(WORD))
+                 ^~~~~
+                      ;
+E:\LP3 Mini Project ICS\afxwin.h:3037:41: error: expected identifier before 'sizeof'
+                 __pre __byte_readableTo(sizeof(WORD))
+                                         ^~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3037:41: error: expected ',' or '...' before 'sizeof'
+E:\LP3 Mini Project ICS\afxwin.h:3037:53: error: expected ';' at end of member declaration
+                 __pre __byte_readableTo(sizeof(WORD))
+                                                     ^
+                                                      ;
+E:\LP3 Mini Project ICS\afxwin.h:3038:17: error: '__pre' does not name a type; did you mean '_m_por'?
+                 __pre __elem_writableTo(*((LPWORD)lpBuffer))
+                 ^~~~~
+                 _m_por
+E:\LP3 Mini Project ICS\afxwin.h:3042:17: error: '__in' has not been declared
+     int GetLine(__in int nIndex,
+                 ^~~~
+E:\LP3 Mini Project ICS\afxwin.h:3042:26: error: two or more data types in declaration of 'nIndex'
+     int GetLine(__in int nIndex,
+                          ^~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3042:32: error: expected ')' before ',' token
+     int GetLine(__in int nIndex,
+                ~               ^
+                                )
+E:\LP3 Mini Project ICS\afxwin.h:3042:9: error: 'int CEdit::GetLine(...)' cannot be overloaded with 'int CEdit::GetLine(...)'
+     int GetLine(__in int nIndex,
+         ^~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3035:9: note: previous declaration 'int CEdit::GetLine(...)'
+     int GetLine(__in int nIndex,
+         ^~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3043:35: error: 'nMaxLength' has not been declared
+                 __out_ecount_part(nMaxLength, return) LPTCH lpBuffer,
+                                   ^~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3043:47: error: expected identifier before 'return'
+                 __out_ecount_part(nMaxLength, return) LPTCH lpBuffer,
+                                               ^~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3043:47: error: expected ',' or '...' before 'return'
+E:\LP3 Mini Project ICS\afxwin.h:3043:53: error: expected ';' at end of member declaration
+                 __out_ecount_part(nMaxLength, return) LPTCH lpBuffer,
+                                                     ^
+                                                      ;
+E:\LP3 Mini Project ICS\afxwin.h:3044:17: error: expected ';' at end of member declaration
+                 __in int nMaxLength) const;
+                 ^~~~
+                     ;
+E:\LP3 Mini Project ICS\afxwin.h:3044:26: error: expected ';' at end of member declaration
+                 __in int nMaxLength) const;
+                          ^~~~~~~~~~
+                                    ;
+E:\LP3 Mini Project ICS\afxwin.h:3044:36: error: expected unqualified-id before ')' token
+                 __in int nMaxLength) const;
+                                    ^
+E:\LP3 Mini Project ICS\afxwin.h:3154:59: error: 'AFX_IDW_PANE_FIRST' was not declared in this scope
+     CWnd* CreateView(CCreateContext* pContext, UINT nID = AFX_IDW_PANE_FIRST);
+                                                           ^~~~~~~~~~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3154:59: note: suggested alternative: 'VIEW_E_FIRST'
+     CWnd* CreateView(CCreateContext* pContext, UINT nID = AFX_IDW_PANE_FIRST);
+                                                           ^~~~~~~~~~~~~~~~~~
+                                                           VIEW_E_FIRST
+E:\LP3 Mini Project ICS\afxwin.h:3193:29: error: 'CBRS_ALIGN_TOP' was not declared in this scope
+             DWORD dwStyle = CBRS_ALIGN_TOP);
+                             ^~~~~~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3193:29: note: suggested alternative: 'WVR_ALIGNTOP'
+             DWORD dwStyle = CBRS_ALIGN_TOP);
+                             ^~~~~~~~~~~~~~
+                             WVR_ALIGNTOP
+E:\LP3 Mini Project ICS\afxwin.h:3979:5: error: '__in_z' has not been declared
+     __in_z LPTSTR lpCmdLine, int nCmdShow);
+     ^~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:3979:19: error: expected ',' or '...' before 'lpCmdLine'
+     __in_z LPTSTR lpCmdLine, int nCmdShow);
+                   ^~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:4077:31: error: '__in_z' has not been declared
+     virtual BOOL OnDDECommand(__in_z LPTSTR lpszCommand);
+                               ^~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:4077:45: error: expected ',' or '...' before 'lpszCommand'
+     virtual BOOL OnDDECommand(__in_z LPTSTR lpszCommand);
+                                             ^~~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:4239:31: error: '__in_z' has not been declared
+     virtual BOOL OnDDECommand(__in_z LPTSTR lpszCommand);
+                               ^~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:4239:45: error: expected ',' or '...' before 'lpszCommand'
+     virtual BOOL OnDDECommand(__in_z LPTSTR lpszCommand);
+                                             ^~~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:4284:24: error: '__in_z' has not been declared
+     void DevModeChange(__in_z LPTSTR lpDeviceName);
+                        ^~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:4284:38: error: expected ',' or '...' before 'lpDeviceName'
+     void DevModeChange(__in_z LPTSTR lpDeviceName);
+                                      ^~~~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:4668:51: error: '__in_z_opt' has not been declared
+ BOOL AFXAPI AfxExtractSubString(CString& rString, __in_z_opt LPCTSTR lpszFullString,
+                                                   ^~~~~~~~~~
+E:\LP3 Mini Project ICS\afxwin.h:4668:70: error: expected ',' or '...' before 'lpszFullString'
+ BOOL AFXAPI AfxExtractSubString(CString& rString, __in_z_opt LPCTSTR lpszFullString,
+                                                                      ^~~~~~~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:4721,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:858:14: error: 'int CEdit::GetLine' is not a static data member of 'class CEdit'
+         __in int nIndex,
+              ^~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:858:9: error: invalid use of non-static data member 'CEdit::__in'
+         __in int nIndex,
+         ^~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:3044:17: note: declared here
+                 __in int nMaxLength) const;
+                 ^~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:4721,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:860:9: error: invalid use of non-static data member 'CEdit::__pre'
+         __pre __byte_readableTo(sizeof(WORD))
+         ^~~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:3037:17: note: declared here
+                 __pre __byte_readableTo(sizeof(WORD))
+                 ^~~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:4721,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:863:24: error: expression list treated as compound expression in initializer [-fpermissive]
+         LPTCH  lpBuffer) const
+                        ^
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:866:14: error: 'int CEdit::GetLine' is not a static data member of 'class CEdit'
+         __in int nIndex,
+              ^~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:866:9: error: invalid use of non-static data member 'CEdit::__in'
+         __in int nIndex,
+         ^~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:3044:17: note: declared here
+                 __in int nMaxLength) const;
+                 ^~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:4721,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:867:27: error: invalid use of non-static data member 'CEdit::nMaxLength'
+         __out_ecount_part(nMaxLength, return) LPTCH lpBuffer,
+                           ^~~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:3044:26: note: declared here
+                 __in int nMaxLength) const;
+                          ^~~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:4721,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:867:39: error: expected primary-expression before 'return'
+         __out_ecount_part(nMaxLength, return) LPTCH lpBuffer,
+                                       ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:868:9: error: invalid use of non-static data member 'CEdit::__in'
+         __in int nMaxLength) const
+         ^~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:3044:17: note: declared here
+                 __in int nMaxLength) const;
+                 ^~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:4721,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxwin2.inl:868:28: error: expression list treated as compound expression in initializer [-fpermissive]
+         __in int nMaxLength) const
+                            ^
+In file included from E:\LP3 Mini Project ICS\stdafx.h:16,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:264:43: error: 'CBRS_BOTTOM' was not declared in this scope
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | CBRS_BOTTOM,
+                                           ^~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:264:43: note: suggested alternative: 'TBTS_BOTTOM'
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | CBRS_BOTTOM,
+                                           ^~~~~~~~~~~
+                                           TBTS_BOTTOM
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:265:14: error: 'AFX_IDW_STATUS_BAR' was not declared in this scope
+   UINT nID = AFX_IDW_STATUS_BAR);
+              ^~~~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:265:14: note: suggested alternative: 'AFX_STATUSPANE'
+   UINT nID = AFX_IDW_STATUS_BAR);
+              ^~~~~~~~~~~~~~~~~~
+              AFX_STATUSPANE
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:268:43: error: 'CBRS_BOTTOM' was not declared in this scope
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | CBRS_BOTTOM,
+                                           ^~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:268:43: note: suggested alternative: 'TBTS_BOTTOM'
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | CBRS_BOTTOM,
+                                           ^~~~~~~~~~~
+                                           TBTS_BOTTOM
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:269:14: error: 'AFX_IDW_STATUS_BAR' was not declared in this scope
+   UINT nID = AFX_IDW_STATUS_BAR);
+              ^~~~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:269:14: note: suggested alternative: 'AFX_STATUSPANE'
+   UINT nID = AFX_IDW_STATUS_BAR);
+              ^~~~~~~~~~~~~~~~~~
+              AFX_STATUSPANE
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:361:43: error: 'CBRS_TOP' was not declared in this scope
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | CBRS_TOP,
+                                           ^~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:361:43: note: suggested alternative: 'TBTS_TOP'
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | CBRS_TOP,
+                                           ^~~~~~~~
+                                           TBTS_TOP
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:362:14: error: 'AFX_IDW_TOOLBAR' was not declared in this scope
+   UINT nID = AFX_IDW_TOOLBAR);
+              ^~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:362:14: note: suggested alternative: 'FCIDM_TOOLBAR'
+   UINT nID = AFX_IDW_TOOLBAR);
+              ^~~~~~~~~~~~~~~
+              FCIDM_TOOLBAR
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:365:43: error: 'CBRS_ALIGN_TOP' was not declared in this scope
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | CBRS_ALIGN_TOP,
+                                           ^~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:365:43: note: suggested alternative: 'WVR_ALIGNTOP'
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | CBRS_ALIGN_TOP,
+                                           ^~~~~~~~~~~~~~
+                                           WVR_ALIGNTOP
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:367:14: error: 'AFX_IDW_TOOLBAR' was not declared in this scope
+   UINT nID = AFX_IDW_TOOLBAR);
+              ^~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:367:14: note: suggested alternative: 'FCIDM_TOOLBAR'
+   UINT nID = AFX_IDW_TOOLBAR);
+              ^~~~~~~~~~~~~~~
+              FCIDM_TOOLBAR
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:542:79: error: 'CBRS_TOP' was not declared in this scope
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | CBRS_TOP,
+                                                                               ^~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:542:79: note: suggested alternative: 'TBTS_TOP'
+   DWORD dwStyle = WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | CBRS_TOP,
+                                                                               ^~~~~~~~
+                                                                               TBTS_TOP
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:543:14: error: 'AFX_IDW_REBAR' was not declared in this scope
+   UINT nID = AFX_IDW_REBAR);
+              ^~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:543:14: note: suggested alternative: 'AFX_DB_DATA'
+   UINT nID = AFX_IDW_REBAR);
+              ^~~~~~~~~~~~~
+              AFX_DB_DATA
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:603:16: error: 'AFX_IDW_PANE_FIRST' was not declared in this scope
+     UINT nID = AFX_IDW_PANE_FIRST);
+                ^~~~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:603:16: note: suggested alternative: 'VIEW_E_FIRST'
+     UINT nID = AFX_IDW_PANE_FIRST);
+                ^~~~~~~~~~~~~~~~~~
+                VIEW_E_FIRST
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:609:16: error: 'AFX_IDW_PANE_FIRST' was not declared in this scope
+     UINT nID = AFX_IDW_PANE_FIRST);
+                ^~~~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:609:16: note: suggested alternative: 'VIEW_E_FIRST'
+     UINT nID = AFX_IDW_PANE_FIRST);
+                ^~~~~~~~~~~~~~~~~~
+                VIEW_E_FIRST
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:837:16: error: '__in_z' has not been declared
+  BOOL FindText(__in_z LPCTSTR lpszFind, BOOL bNext = TRUE, BOOL bCase = TRUE);
+                ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:837:31: error: expected ',' or '...' before 'lpszFind'
+  BOOL FindText(__in_z LPCTSTR lpszFind, BOOL bNext = TRUE, BOOL bCase = TRUE);
+                               ^~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:887:22: error: '__in_z' has not been declared
+  BOOL SameAsSelected(__in_z LPCTSTR lpszCompare, BOOL bCase);
+                      ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxext.h:887:37: error: expected ',' or '...' before 'lpszCompare'
+  BOOL SameAsSelected(__in_z LPCTSTR lpszCompare, BOOL bCase);
+                                     ^~~~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:17,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:263:31: error: '__out_ecount_z' has not been declared
+  virtual BOOL GetErrorMessage(__out_ecount_z(nMaxError) LPTSTR lpszError, UINT nMaxError,
+                               ^~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:263:57: error: expected ',' or '...' before 'LPTSTR'
+  virtual BOOL GetErrorMessage(__out_ecount_z(nMaxError) LPTSTR lpszError, UINT nMaxError,
+                                                         ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:297:31: error: '__in_ecount_z' has not been declared
+  virtual BOOL GetErrorMessage(__in_ecount_z(nMaxError) LPTSTR lpszError, UINT nMaxError,
+                               ^~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:297:56: error: expected ',' or '...' before 'LPTSTR'
+  virtual BOOL GetErrorMessage(__in_ecount_z(nMaxError) LPTSTR lpszError, UINT nMaxError,
+                                                        ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:912:38: error: '__in_z_opt' was not declared in this scope
+ LPWSTR AFXAPI AfxAllocTaskWideString(__in_z_opt LPCWSTR lpszString);
+                                      ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:912:38: note: suggested alternative: 'SAL__in_z_opt'
+ LPWSTR AFXAPI AfxAllocTaskWideString(__in_z_opt LPCWSTR lpszString);
+                                      ^~~~~~~~~~
+                                      SAL__in_z_opt
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:913:38: error: redefinition of 'WCHAR* AfxAllocTaskWideString'
+ LPWSTR AFXAPI AfxAllocTaskWideString(__in_z_opt LPCSTR lpszString);
+                                      ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:912:15: note: 'WCHAR* AfxAllocTaskWideString' previously defined here
+ LPWSTR AFXAPI AfxAllocTaskWideString(__in_z_opt LPCWSTR lpszString);
+               ^~~~~~~~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:913:38: error: '__in_z_opt' was not declared in this scope
+ LPWSTR AFXAPI AfxAllocTaskWideString(__in_z_opt LPCSTR lpszString);
+                                      ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:913:38: note: suggested alternative: 'SAL__in_z_opt'
+ LPWSTR AFXAPI AfxAllocTaskWideString(__in_z_opt LPCSTR lpszString);
+                                      ^~~~~~~~~~
+                                      SAL__in_z_opt
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:914:37: error: '__in_z_opt' was not declared in this scope
+ LPSTR AFXAPI AfxAllocTaskAnsiString(__in_z_opt LPCWSTR lpszString);
+                                     ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:914:37: note: suggested alternative: 'SAL__in_z_opt'
+ LPSTR AFXAPI AfxAllocTaskAnsiString(__in_z_opt LPCWSTR lpszString);
+                                     ^~~~~~~~~~
+                                     SAL__in_z_opt
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:915:37: error: redefinition of 'CHAR* AfxAllocTaskAnsiString'
+ LPSTR AFXAPI AfxAllocTaskAnsiString(__in_z_opt LPCSTR lpszString);
+                                     ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:914:14: note: 'CHAR* AfxAllocTaskAnsiString' previously defined here
+ LPSTR AFXAPI AfxAllocTaskAnsiString(__in_z_opt LPCWSTR lpszString);
+              ^~~~~~~~~~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:915:37: error: '__in_z_opt' was not declared in this scope
+ LPSTR AFXAPI AfxAllocTaskAnsiString(__in_z_opt LPCSTR lpszString);
+                                     ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:915:37: note: suggested alternative: 'SAL__in_z_opt'
+ LPSTR AFXAPI AfxAllocTaskAnsiString(__in_z_opt LPCSTR lpszString);
+                                     ^~~~~~~~~~
+                                     SAL__in_z_opt
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:929:40: error: '__in_z' was not declared in this scope
+ HRESULT AFXAPI AfxGetClassIDFromString(__in_z LPCTSTR lpsz, LPCLSID lpClsID);
+                                        ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:929:40: note: suggested alternative: 'u_int'
+ HRESULT AFXAPI AfxGetClassIDFromString(__in_z LPCTSTR lpsz, LPCLSID lpClsID);
+                                        ^~~~~~
+                                        u_int
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:929:69: error: expected primary-expression before 'lpClsID'
+ HRESULT AFXAPI AfxGetClassIDFromString(__in_z LPCTSTR lpsz, LPCLSID lpClsID);
+                                                                     ^~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxdisp.h:929:76: error: expression list treated as compound expression in initializer [-fpermissive]
+ HRESULT AFXAPI AfxGetClassIDFromString(__in_z LPCTSTR lpsz, LPCLSID lpClsID);
+                                                                            ^
+In file included from E:\LP3 Mini Project ICS\stdafx.h:20,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:230:43: error: '__inout_ecount' has not been declared
+  int GetItemText(int nItem, int nSubItem, __inout_ecount(nLen) LPTSTR lpszText, int nLen) const;
+                                           ^~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:230:64: error: expected ',' or '...' before 'LPTSTR'
+  int GetItemText(int nItem, int nSubItem, __inout_ecount(nLen) LPTSTR lpszText, int nLen) const;
+                                                                ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:259:18: error: '__in_z' has not been declared
+  BOOL SetBkImage(__in_z LPTSTR pszUrl, BOOL fTile = TRUE, int xOffsetPercent = 0, int yOffsetPercent = 0);
+                  ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:259:32: error: expected ',' or '...' before 'pszUrl'
+  BOOL SetBkImage(__in_z LPTSTR pszUrl, BOOL fTile = TRUE, int xOffsetPercent = 0, int yOffsetPercent = 0);
+                                ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:1101:26: error: '__in_z' has not been declared
+  int GetLine(int nIndex, __in_z LPTSTR lpszBuffer) const;
+                          ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:1101:40: error: expected ',' or '...' before 'lpszBuffer'
+  int GetLine(int nIndex, __in_z LPTSTR lpszBuffer) const;
+                                        ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:1102:26: error: '__inout_ecount' has not been declared
+  int GetLine(int nIndex, __inout_ecount(nMaxLength) LPTSTR lpszBuffer, int nMaxLength) const;
+                          ^~~~~~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:1102:53: error: expected ',' or '...' before 'LPTSTR'
+  int GetLine(int nIndex, __inout_ecount(nMaxLength) LPTSTR lpszBuffer, int nMaxLength) const;
+                                                     ^~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:1102:6: error: 'int CRichEditCtrl::GetLine(int, int) const' cannot be overloaded with 'int CRichEditCtrl::GetLine(int, int) const'
+  int GetLine(int nIndex, __inout_ecount(nMaxLength) LPTSTR lpszBuffer, int nMaxLength) const;
+      ^~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxcmn.h:1101:6: note: previous declaration 'int CRichEditCtrl::GetLine(int, int) const'
+  int GetLine(int nIndex, __in_z LPTSTR lpszBuffer) const;
+      ^~~~~~~
+In file included from E:\LP3 Mini Project ICS\PacketFilter.h:18,
+                 from E:\LP3 Mini Project ICS\MainFrm.h:19,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:5:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h: In function 'void SerializeElements(CArchive&, TYPE*, INT_PTR)':
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:107:34: error: there are no arguments to 'min' that depend on a template parameter, so a declaration of 'min' must be available [-fpermissive]
+          nElementsToWrite = UINT(min(nElementsLeft, INT_MAX/sizeof(TYPE)));
+                                  ^~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:107:34: note: (if you use '-fpermissive', G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:124:33: error: there are no arguments to 'min' that depend on a template parameter, so a declaration of 'min' must be available [-fpermissive]
+          nElementsToRead = UINT(min(nElementsLeft, INT_MAX/sizeof(TYPE)));
+                                 ^~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:19,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h: In member function 'void CArray<TYPE, ARG_TYPE>::SetSize(INT_PTR, INT_PTR)':
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:363:22: error: unable to find numeric literal operator 'operator""ui64'
+   ENSURE(nNewSize <= SIZE_T_MAX/sizeof(TYPE));    // no overflow
+                      ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:401:21: error: unable to find numeric literal operator 'operator""ui64'
+   ENSURE(nNewMax <= SIZE_T_MAX/sizeof(TYPE)); // no overflow
+                     ^~~~~~~~~~
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h: In member function 'void CArray<TYPE, ARG_TYPE>::FreeExtra()':
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:452:21: error: unable to find numeric literal operator 'operator""ui64'
+   ENSURE(m_nSize <= SIZE_T_MAX/sizeof(TYPE)); // no overflow
+                     ^~~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\PacketFilter.h:18,
+                 from E:\LP3 Mini Project ICS\MainFrm.h:19,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:5:
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h: In member function 'BOOL CTypedPtrMap<BASE_CLASS, KEY, VALUE>::Lookup(typename BASE_CLASS::BASE_ARG_KEY, VALUE&) const':
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:1740:60: error: expected primary-expression before ')' token
+   { return BASE_CLASS::Lookup(key, (BASE_CLASS::BASE_VALUE&)rValue); }
+                                                            ^
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:1740:61: error: expected ')' before 'rValue'
+   { return BASE_CLASS::Lookup(key, (BASE_CLASS::BASE_VALUE&)rValue); }
+                              ~                              ^~~~~~
+                                                             )
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h: In member function 'void CTypedPtrMap<BASE_CLASS, KEY, VALUE>::GetNextAssoc(__POSITION*&, KEY&, VALUE&) const':
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:1756:63: error: expected primary-expression before ')' token
+   { BASE_CLASS::GetNextAssoc(rPosition, (BASE_CLASS::BASE_KEY&)rKey,
+                                                               ^
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:1756:64: error: expected ')' before 'rKey'
+   { BASE_CLASS::GetNextAssoc(rPosition, (BASE_CLASS::BASE_KEY&)rKey,
+                             ~                                  ^~~~
+                                                                )
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:1757:28: error: expected primary-expression before ')' token
+    (BASE_CLASS::BASE_VALUE&)rValue); }
+                            ^
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:1757:29: error: expected ')' before 'rValue'
+    (BASE_CLASS::BASE_VALUE&)rValue); }
+                             ^~~~~~
+                             )
+C:/Program Files/C/mingw64/x86_64-w64-mingw32/include/afxtempl.h:1756:29: note: to match this '('
+   { BASE_CLASS::GetNextAssoc(rPosition, (BASE_CLASS::BASE_KEY&)rKey,
+                             ^
+In file included from E:\LP3 Mini Project ICS\afxwin.h:1231,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\FirewallApp.cpp: At global scope:
+E:\LP3 Mini Project ICS\FirewallApp.cpp:20:13: error: 'ID_APP_ABOUT' was not declared in this scope
+  ON_COMMAND(ID_APP_ABOUT, OnAppAbout)
+             ^~~~~~~~~~~~
+E:\LP3 Mini Project ICS\FirewallApp.cpp:20:13: note: suggested alternative: 'SP_APPABORT'
+E:\LP3 Mini Project ICS\FirewallApp.cpp:20:13: error: 'ID_APP_ABOUT' was not declared in this scope
+  ON_COMMAND(ID_APP_ABOUT, OnAppAbout)
+             ^~~~~~~~~~~~
+E:\LP3 Mini Project ICS\FirewallApp.cpp:20:13: note: suggested alternative: 'SP_APPABORT'
+E:\LP3 Mini Project ICS\FirewallApp.cpp:25:13: error: 'ID_FILE_NEW' was not declared in this scope
+  ON_COMMAND(ID_FILE_NEW, CWinApp::OnFileNew)
+             ^~~~~~~~~~~
+E:\LP3 Mini Project ICS\FirewallApp.cpp:25:13: note: suggested alternative: 'STD_FILENEW'
+E:\LP3 Mini Project ICS\FirewallApp.cpp:25:13: error: 'ID_FILE_NEW' was not declared in this scope
+  ON_COMMAND(ID_FILE_NEW, CWinApp::OnFileNew)
+             ^~~~~~~~~~~
+E:\LP3 Mini Project ICS\FirewallApp.cpp:25:13: note: suggested alternative: 'STD_FILENEW'
+E:\LP3 Mini Project ICS\FirewallApp.cpp:25:35: error: 'void CWinApp::OnFileNew()' is protected within this context
+  ON_COMMAND(ID_FILE_NEW, CWinApp::OnFileNew)
+                                   ^~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:4247:18: note: declared protected here
+     afx_msg void OnFileNew();
+                  ^~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:1231,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\FirewallApp.cpp:26:13: error: 'ID_FILE_OPEN' was not declared in this scope
+  ON_COMMAND(ID_FILE_OPEN, CWinApp::OnFileOpen)
+             ^~~~~~~~~~~~
+E:\LP3 Mini Project ICS\FirewallApp.cpp:26:13: note: suggested alternative: 'FILE_OPEN'
+E:\LP3 Mini Project ICS\FirewallApp.cpp:26:13: error: 'ID_FILE_OPEN' was not declared in this scope
+  ON_COMMAND(ID_FILE_OPEN, CWinApp::OnFileOpen)
+             ^~~~~~~~~~~~
+E:\LP3 Mini Project ICS\FirewallApp.cpp:26:13: note: suggested alternative: 'FILE_OPEN'
+E:\LP3 Mini Project ICS\FirewallApp.cpp:26:36: error: 'void CWinApp::OnFileOpen()' is protected within this context
+  ON_COMMAND(ID_FILE_OPEN, CWinApp::OnFileOpen)
+                                    ^~~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:4248:18: note: declared protected here
+     afx_msg void OnFileOpen();
+                  ^~~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\afxwin.h:1231,
+                 from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\FirewallApp.cpp:28:13: error: 'ID_FILE_PRINT_SETUP' was not declared in this scope
+  ON_COMMAND(ID_FILE_PRINT_SETUP, CWinApp::OnFilePrintSetup)
+             ^~~~~~~~~~~~~~~~~~~
+E:\LP3 Mini Project ICS\FirewallApp.cpp:28:13: note: suggested alternative: 'PD_PRINTSETUP'
+E:\LP3 Mini Project ICS\FirewallApp.cpp:28:13: error: 'ID_FILE_PRINT_SETUP' was not declared in this scope
+  ON_COMMAND(ID_FILE_PRINT_SETUP, CWinApp::OnFilePrintSetup)
+             ^~~~~~~~~~~~~~~~~~~
+E:\LP3 Mini Project ICS\FirewallApp.cpp:28:13: note: suggested alternative: 'PD_PRINTSETUP'
+E:\LP3 Mini Project ICS\FirewallApp.cpp:28:43: error: 'void CWinApp::OnFilePrintSetup()' is protected within this context
+  ON_COMMAND(ID_FILE_PRINT_SETUP, CWinApp::OnFilePrintSetup)
+                                           ^~~~~~~~~~~~~~~~
+In file included from E:\LP3 Mini Project ICS\stdafx.h:15,
+                 from E:\LP3 Mini Project ICS\FirewallApp.cpp:2:
+E:\LP3 Mini Project ICS\afxwin.h:4251:18: note: declared protected here
+     afx_msg void OnFilePrintSetup();
+                  ^~~~~~~~~~~~~~~~
